@@ -13,6 +13,26 @@
 		18AAA46B247284AC0099CF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA46A247284AC0099CF64 /* Assets.xcassets */; };
 		18AAA46E247284AC0099CF64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA46D247284AC0099CF64 /* Preview Assets.xcassets */; };
 		18AAA471247284AC0099CF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA46F247284AC0099CF64 /* LaunchScreen.storyboard */; };
+		18AAA479247285FE0099CF64 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAA478247285FE0099CF64 /* Support.swift */; };
+		18AAA485247286370099CF64 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA47B247286370099CF64 /* RobotoMono-Medium.ttf */; };
+		18AAA486247286370099CF64 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA47C247286370099CF64 /* RobotoMono-Regular.ttf */; };
+		18AAA487247286370099CF64 /* RobotoMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA47D247286370099CF64 /* RobotoMono-LightItalic.ttf */; };
+		18AAA488247286370099CF64 /* RobotoMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA47E247286370099CF64 /* RobotoMono-BoldItalic.ttf */; };
+		18AAA489247286370099CF64 /* RobotoMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA47F247286370099CF64 /* RobotoMono-ThinItalic.ttf */; };
+		18AAA48A247286370099CF64 /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA480247286370099CF64 /* RobotoMono-Light.ttf */; };
+		18AAA48B247286370099CF64 /* RobotoMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA481247286370099CF64 /* RobotoMono-MediumItalic.ttf */; };
+		18AAA48C247286370099CF64 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA482247286370099CF64 /* RobotoMono-Bold.ttf */; };
+		18AAA48D247286370099CF64 /* RobotoMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA483247286370099CF64 /* RobotoMono-Italic.ttf */; };
+		18AAA48E247286370099CF64 /* RobotoMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA484247286370099CF64 /* RobotoMono-Thin.ttf */; };
+		18AAA4952472864F0099CF64 /* Teko-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4902472864F0099CF64 /* Teko-Bold.ttf */; };
+		18AAA4962472864F0099CF64 /* Teko-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4912472864F0099CF64 /* Teko-Medium.ttf */; };
+		18AAA4972472864F0099CF64 /* Teko-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4922472864F0099CF64 /* Teko-SemiBold.ttf */; };
+		18AAA4982472864F0099CF64 /* Teko-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4932472864F0099CF64 /* Teko-Regular.ttf */; };
+		18AAA4992472864F0099CF64 /* Teko-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4942472864F0099CF64 /* Teko-Light.ttf */; };
+		18AAA49C247286FD0099CF64 /* UbuntuCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA49B247286FD0099CF64 /* UbuntuCondensed-Regular.ttf */; };
+		18AAA4A124728E000099CF64 /* RopaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA49E24728E000099CF64 /* RopaSans-Italic.ttf */; };
+		18AAA4A224728E000099CF64 /* RopaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA49F24728E000099CF64 /* RopaSans-Regular.ttf */; };
+		18AAA4A324728E000099CF64 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18AAA4A024728E000099CF64 /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		18AAA46D247284AC0099CF64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18AAA470247284AC0099CF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AAA472247284AC0099CF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AAA478247285FE0099CF64 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		18AAA47B247286370099CF64 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		18AAA47C247286370099CF64 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		18AAA47D247286370099CF64 /* RobotoMono-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		18AAA47E247286370099CF64 /* RobotoMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18AAA47F247286370099CF64 /* RobotoMono-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ThinItalic.ttf"; sourceTree = "<group>"; };
+		18AAA480247286370099CF64 /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Light.ttf"; sourceTree = "<group>"; };
+		18AAA481247286370099CF64 /* RobotoMono-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-MediumItalic.ttf"; sourceTree = "<group>"; };
+		18AAA482247286370099CF64 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		18AAA483247286370099CF64 /* RobotoMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Italic.ttf"; sourceTree = "<group>"; };
+		18AAA484247286370099CF64 /* RobotoMono-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Thin.ttf"; sourceTree = "<group>"; };
+		18AAA4902472864F0099CF64 /* Teko-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Bold.ttf"; sourceTree = "<group>"; };
+		18AAA4912472864F0099CF64 /* Teko-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Medium.ttf"; sourceTree = "<group>"; };
+		18AAA4922472864F0099CF64 /* Teko-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-SemiBold.ttf"; sourceTree = "<group>"; };
+		18AAA4932472864F0099CF64 /* Teko-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Regular.ttf"; sourceTree = "<group>"; };
+		18AAA4942472864F0099CF64 /* Teko-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teko-Light.ttf"; sourceTree = "<group>"; };
+		18AAA49B247286FD0099CF64 /* UbuntuCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		18AAA49E24728E000099CF64 /* RopaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Italic.ttf"; sourceTree = "<group>"; };
+		18AAA49F24728E000099CF64 /* RopaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Regular.ttf"; sourceTree = "<group>"; };
+		18AAA4A024728E000099CF64 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +99,14 @@
 				18AAA464247284AA0099CF64 /* AppDelegate.swift */,
 				18AAA466247284AA0099CF64 /* SceneDelegate.swift */,
 				18AAA468247284AA0099CF64 /* ContentView.swift */,
+				18AAA478247285FE0099CF64 /* Support.swift */,
 				18AAA46A247284AC0099CF64 /* Assets.xcassets */,
 				18AAA46F247284AC0099CF64 /* LaunchScreen.storyboard */,
 				18AAA472247284AC0099CF64 /* Info.plist */,
+				18AAA49D24728E000099CF64 /* Ropa_Sans */,
+				18AAA49A247286FD0099CF64 /* Ubuntu_Condensed */,
+				18AAA48F2472864F0099CF64 /* Teko */,
+				18AAA47A247286370099CF64 /* Roboto_Mono */,
 				18AAA46C247284AC0099CF64 /* Preview Content */,
 			);
 			path = DocsViewTest;
@@ -73,6 +118,53 @@
 				18AAA46D247284AC0099CF64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18AAA47A247286370099CF64 /* Roboto_Mono */ = {
+			isa = PBXGroup;
+			children = (
+				18AAA47B247286370099CF64 /* RobotoMono-Medium.ttf */,
+				18AAA47C247286370099CF64 /* RobotoMono-Regular.ttf */,
+				18AAA47D247286370099CF64 /* RobotoMono-LightItalic.ttf */,
+				18AAA47E247286370099CF64 /* RobotoMono-BoldItalic.ttf */,
+				18AAA47F247286370099CF64 /* RobotoMono-ThinItalic.ttf */,
+				18AAA480247286370099CF64 /* RobotoMono-Light.ttf */,
+				18AAA481247286370099CF64 /* RobotoMono-MediumItalic.ttf */,
+				18AAA482247286370099CF64 /* RobotoMono-Bold.ttf */,
+				18AAA483247286370099CF64 /* RobotoMono-Italic.ttf */,
+				18AAA484247286370099CF64 /* RobotoMono-Thin.ttf */,
+			);
+			path = Roboto_Mono;
+			sourceTree = "<group>";
+		};
+		18AAA48F2472864F0099CF64 /* Teko */ = {
+			isa = PBXGroup;
+			children = (
+				18AAA4902472864F0099CF64 /* Teko-Bold.ttf */,
+				18AAA4912472864F0099CF64 /* Teko-Medium.ttf */,
+				18AAA4922472864F0099CF64 /* Teko-SemiBold.ttf */,
+				18AAA4932472864F0099CF64 /* Teko-Regular.ttf */,
+				18AAA4942472864F0099CF64 /* Teko-Light.ttf */,
+			);
+			path = Teko;
+			sourceTree = "<group>";
+		};
+		18AAA49A247286FD0099CF64 /* Ubuntu_Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				18AAA49B247286FD0099CF64 /* UbuntuCondensed-Regular.ttf */,
+			);
+			path = Ubuntu_Condensed;
+			sourceTree = "<group>";
+		};
+		18AAA49D24728E000099CF64 /* Ropa_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				18AAA49E24728E000099CF64 /* RopaSans-Italic.ttf */,
+				18AAA49F24728E000099CF64 /* RopaSans-Regular.ttf */,
+				18AAA4A024728E000099CF64 /* OFL.txt */,
+			);
+			path = Ropa_Sans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +226,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AAA471247284AC0099CF64 /* LaunchScreen.storyboard in Resources */,
+				18AAA4A224728E000099CF64 /* RopaSans-Regular.ttf in Resources */,
+				18AAA489247286370099CF64 /* RobotoMono-ThinItalic.ttf in Resources */,
+				18AAA4962472864F0099CF64 /* Teko-Medium.ttf in Resources */,
+				18AAA486247286370099CF64 /* RobotoMono-Regular.ttf in Resources */,
+				18AAA485247286370099CF64 /* RobotoMono-Medium.ttf in Resources */,
 				18AAA46E247284AC0099CF64 /* Preview Assets.xcassets in Resources */,
 				18AAA46B247284AC0099CF64 /* Assets.xcassets in Resources */,
+				18AAA49C247286FD0099CF64 /* UbuntuCondensed-Regular.ttf in Resources */,
+				18AAA4952472864F0099CF64 /* Teko-Bold.ttf in Resources */,
+				18AAA4A124728E000099CF64 /* RopaSans-Italic.ttf in Resources */,
+				18AAA48A247286370099CF64 /* RobotoMono-Light.ttf in Resources */,
+				18AAA4A324728E000099CF64 /* OFL.txt in Resources */,
+				18AAA487247286370099CF64 /* RobotoMono-LightItalic.ttf in Resources */,
+				18AAA4992472864F0099CF64 /* Teko-Light.ttf in Resources */,
+				18AAA48C247286370099CF64 /* RobotoMono-Bold.ttf in Resources */,
+				18AAA4982472864F0099CF64 /* Teko-Regular.ttf in Resources */,
+				18AAA488247286370099CF64 /* RobotoMono-BoldItalic.ttf in Resources */,
+				18AAA4972472864F0099CF64 /* Teko-SemiBold.ttf in Resources */,
+				18AAA48D247286370099CF64 /* RobotoMono-Italic.ttf in Resources */,
+				18AAA48B247286370099CF64 /* RobotoMono-MediumItalic.ttf in Resources */,
+				18AAA48E247286370099CF64 /* RobotoMono-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AAA465247284AA0099CF64 /* AppDelegate.swift in Sources */,
+				18AAA479247285FE0099CF64 /* Support.swift in Sources */,
 				18AAA467247284AA0099CF64 /* SceneDelegate.swift in Sources */,
 				18AAA469247284AA0099CF64 /* ContentView.swift in Sources */,
 			);
