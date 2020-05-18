@@ -16,23 +16,34 @@ struct ContentView: View {
         ScrollView(.vertical, showsIndicators: false){
             VStack {
                 ButtonView2(name: "All Docs", level: "Built with Notion")
-                    
-                HStack {
-                    LargeDocsView(subject: "Economics", forecolor: "BG2-Text", image: "Eco", padding: -10, backcolor: "BG3-Eco", shadow: "BG4-Shadow")
+             
+            HStack{
+                VStack {
+                    LargeDocsView(subject: "Economics", forecolor: "BG2-Text", image: "Eco", padding: -19, backcolor: "BG3-Eco", shadow: "BG7-Shadow")
                         .padding(.top)
                         .padding(.horizontal, 10)
                     
-                    LargeDocsView(subject: "Geography", forecolor: "BG6-Text", image: "Geo", padding: -30, backcolor: "BG5-Geo", shadow: "BG7-Shadow")
-                        .padding(.top)
+                     
+                    SmallDocsView(subject: "English", forecolor: "BG2-Text", image: "Eng", padding: -30, backcolor: "BG9-Eng", shadow: "BG7-Shadow")
+                        .padding(.top, 5)
                         .padding(.horizontal, 10)
                 }
                     
+                VStack {
+                    SmallDocsView(subject: "Physics", forecolor: "BG6-Text", image: "Phy", padding: -10, backcolor: "BG8-Phy", shadow: "BG7-Shadow")
+                        .padding(.top)
+                        .padding(.horizontal, 10)
                     
-                    
+                     
+                    LargeDocsView(subject: "Geography", forecolor: "BG6-Text", image: "Geo", padding: -38, backcolor: "BG5-Geo", shadow: "BG7-Shadow")
+                        .padding(.top, 5)
+                        .padding(.horizontal, 10)
+                    }
+                
                 }
-            
-            
+                
             }
+        }
         .navigationBarTitle("Notes", displayMode: .inline)
         .background(Color("BG1"))
         
@@ -123,6 +134,45 @@ struct LargeDocsView: View {
         }
             
         .frame(width: 160, height: 217)
+        .background(Color(backcolor))
+        .cornerRadius(15)
+        .shadow(color: Color(shadow), radius: 3, x: 0, y: 1)
+    }
+}
+
+struct SmallDocsView: View {
+    let subject: String
+    let forecolor: String
+    let image: String
+    let padding: CGFloat
+    let backcolor: String
+    let shadow: String
+    
+
+    var body: some View{
+        
+        VStack {
+            HStack {
+                Text(subject)
+                .modifier(FontCoustom10(size: 24))
+                .foregroundColor(Color(forecolor))
+                Spacer()
+            }
+            .padding(.top, 12)
+            .padding(.leading, 10)
+            Spacer()
+            
+            VStack {
+                Image(image)
+                
+                .resizable()
+                .scaledToFill()
+                .padding(.bottom, padding)
+            }
+            .frame(width: 140, height: 120)
+        }
+            
+        .frame(width: 160, height: 170)
         .background(Color(backcolor))
         .cornerRadius(15)
         .shadow(color: Color(shadow), radius: 3, x: 0, y: 1)
